@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".AccesPortailActivity">
+
+    <EditText
+        android:hint="Adresse MAC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/txtAdresseMAC"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnConnectPortail"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:text="Contrôler le portail" />
+
+        <Button
+            android:id="@+id/btnRetourAP"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/btnConnectPortail"
+            android:layout_alignLeft="@id/btnConnectPortail"
+            android:layout_marginLeft="200dp"
+            android:layout_marginRight="20dp"
+            android:text="Retour " />
+
+    </RelativeLayout>
+</LinearLayout>

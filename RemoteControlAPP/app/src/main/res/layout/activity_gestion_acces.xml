@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GestionAccesActivity">
+
+    <Button
+        android:id="@+id/btnNewUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="20dp"
+        android:text="New User" />
+    <ListView
+        android:id="@+id/listUsers"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp">
+    </ListView>
+
+    <Button
+        android:id="@+id/btnNewTC"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginEnd="20dp"
+        android:text="New TC "
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="20dp" />
+    <ListView
+        android:id="@+id/listTC"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+    <Button
+        android:id="@+id/btnRetourAccess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:text="Retour " />
+
+</LinearLayout>

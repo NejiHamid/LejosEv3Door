@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewUserActivity">
+
+    <EditText
+        android:hint="Nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtNomN"
+        />
+
+    <EditText
+        android:hint="Prenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtPrenomN"
+        />
+
+    <EditText
+        android:id="@+id/txtLoginN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Login" />
+
+    <EditText
+        android:id="@+id/txtPasswordN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Password"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnAddUser"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Ajouter " />
+
+        <Button
+            android:id="@+id/btnRetourUser"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/btnAddUser"
+            android:layout_alignLeft="@id/btnAddUser"
+            android:layout_marginLeft="200dp"
+            android:layout_marginRight="20dp"
+            android:text="Retour " />
+
+    </RelativeLayout>
+
+</LinearLayout>

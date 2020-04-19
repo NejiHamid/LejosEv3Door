@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditUserActivity">
+
+    <EditText
+        android:hint="Nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtNomE"
+        />
+
+    <EditText
+        android:hint="Prenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtPrenomE"
+        />
+
+    <EditText
+        android:id="@+id/txtLoginE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:enabled="false"
+        android:hint="Login" />
+
+    <EditText
+        android:id="@+id/txtPasswordE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Password"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnEditerU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Editer " />
+
+        <Button
+            android:id="@+id/btnSupp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/btnEditerU"
+            android:layout_alignLeft="@id/btnEditerU"
+            android:layout_marginLeft="85dp"
+            android:layout_marginRight="20dp"
+            android:text="Supprimer" />
+        <Button
+            android:id="@+id/btnRetourE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/btnSupp"
+            android:layout_marginLeft="95dp"
+            android:layout_alignLeft="@id/btnSupp"
+            android:layout_marginRight="20dp"
+            android:text="Retour " />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
