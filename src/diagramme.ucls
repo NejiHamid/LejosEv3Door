@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
+  router="FAN">  
+  <package id="1" language="java" name="portail" project="OutGateDoor" file="/OutGateDoor/src/portail" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="365" width="472" x="555" y="-139"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="2" language="java" name="portail.Capteur" project="OutGateDoor" 
+    file="/OutGateDoor/src/portail/Capteur.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="164" x="599" y="-61"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="moteur.Moteur" project="OutGateDoor" file="/OutGateDoor/src/moteur/Moteur.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="886" y="48"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="4" language="java" name="etat_porte" project="OutGateDoor" file="/OutGateDoor/src/etat_porte" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="292" width="852" x="153" y="253"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="5" language="java" name="etat_porte.StateDoor" project="OutGateDoor" 
+    file="/OutGateDoor/src/etat_porte/StateDoor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="610" y="411"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <package id="6" language="java" name="controleur" project="OutGateDoor" file="/OutGateDoor/src/controleur" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="377" width="471" x="70" y="-152"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="7" language="java" name="controleur.Controller" project="OutGateDoor" 
+    file="/OutGateDoor/src/controleur/Controller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="289" width="219" x="289" y="-92"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="controleur.Main" project="OutGateDoor" 
+    file="/OutGateDoor/src/controleur/Main.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="185" y="33"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="etat_porte.StateDoorBlocked" project="OutGateDoor" 
+    file="/OutGateDoor/src/etat_porte/StateDoorBlocked.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="59" width="127" x="203" y="274"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="etat_porte.StateDoorClosed" project="OutGateDoor" 
+    file="/OutGateDoor/src/etat_porte/StateDoorClosed.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="60" width="120" x="193" y="394"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="etat_porte.StateDoorClosing" project="OutGateDoor" 
+    file="/OutGateDoor/src/etat_porte/StateDoorClosing.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="67" width="123" x="724" y="268"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="etat_porte.StateDoorOpened" project="OutGateDoor" 
+    file="/OutGateDoor/src/etat_porte/StateDoorOpened.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="66" width="125" x="853" y="310"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="etat_porte.StateDoorOpening" project="OutGateDoor" 
+    file="/OutGateDoor/src/etat_porte/StateDoorOpening.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="59" width="128" x="827" y="425"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="etat_porte.StateDoorPartial" project="OutGateDoor" 
+    file="/OutGateDoor/src/etat_porte/StateDoorPartial.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="58" width="118" x="361" y="456"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="15">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="16">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="17">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="18">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="19">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="20">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
