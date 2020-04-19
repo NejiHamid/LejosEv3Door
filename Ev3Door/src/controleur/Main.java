@@ -4,6 +4,7 @@ package controleur;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 import lejos.hardware.Bluetooth;
 import lejos.remote.nxt.BTConnection;
@@ -46,6 +47,34 @@ public class Main {
                         while (!ctrl.capteur_porte_fermee.isContact()) {
                         }
                         break;
+                    case 4 : //test moteurs 
+                    	ctrl.open();
+                    	TimeUnit.SECONDS.sleep(1);
+                    	ctrl.close();
+                    	if(ctrl.getActualState(ctrl.getActualState())==2) {
+                    		out.write(14); //moteurs ok
+                    	}else {
+                    		out.write(15); //moteurs pas ok
+                    	}
+                    	break;
+                    case 5 : //test capteur S1
+                    	int j = 0;
+                   	 while (!ctrl.capteur_porte_ouverte.isContact() && j<10) {
+                   		 TimeUnit.SECONDS.sleep(3);
+                        }
+                   	 int res =j<10 ? 12 : 13;
+                   	 out.write(res);
+                   	break;
+                    	break;
+                    case 6 ://test capteur S2
+                    	int i = 0;
+                    	 while (!ctrl.capteur_porte_fermee.isContact() && i<10) {
+                    		 TimeUnit.SECONDS.sleep(3);
+                         }
+                    	 int res2 =i<10 ? 10 : 11;
+                    	 out.write(res2);
+                    	break;
+                    	
                     default:
                         break;
                 }
@@ -70,4 +99,6 @@ public class Main {
         out = BTConnect.openDataOutputStream();
         in = BTConnect.openDataInputStream();
     }
+    
+    
 }

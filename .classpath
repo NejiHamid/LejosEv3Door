@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.lejos.ev3.ldt.LEJOS_EV3_LIBRARY_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Ev3Door/src"/>
+	<classpathentry kind="src" path="RemoteControlAPP/app/src/main/java"/>
+	<classpathentry kind="lib" path="Ev3Door/dodo.jar"/>
+	<classpathentry kind="lib" path="Ev3Door/Main.jar"/>
+	<classpathentry kind="lib" path="RemoteControlAPP/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="output" path="Ev3Door/bin"/>
+</classpath>
